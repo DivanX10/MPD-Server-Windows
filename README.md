@@ -51,4 +51,7 @@ libmpdclient is a C library which implements the Music Player Daemon protocol.
 
 **2)** Ошибка в консоли: decoder: Decoder plugin 'wildmidi' is unavailable: configuration file does not exist: /etc/timidity/timidity.cfg
 
-> Решение: спокойно игнорим
+![image](https://user-images.githubusercontent.com/64090632/146062980-ae841eb4-8564-4ff4-8380-cbadf09ae763.png)
+
+
+> Решение: спокойно игнорим. Сам MPD сервер запущен и готов к работе
