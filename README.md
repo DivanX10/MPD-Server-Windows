@@ -6,7 +6,7 @@
 * Скачать архивный файл [сервер MPD для Windows](https://github.com/DivanX10/MPD-Server-Windows/raw/main/mpd%20server/MPD%20Server%20for%20Windows.zip)
 * Скачать клиент Auremo c этой [страницы](https://github.com/DivanX10/MPD-Server-Windows/raw/main/mpd%20client/Auremo-0.6.1-installer.exe)
 * Скачать клиент Auremo с проекта [Auremo](https://code.google.com/archive/p/auremo/downloads)
-* Интеграция [YandexStation](https://github.com/AlexxIT/YandexStation#стриминг-музыки) с поддержкой стриминга с яндекс колонки на MPD
+* Интеграция [YandexStation](https://github.com/AlexxIT/YandexStation#стриминг-музыки) с поддержкой стриминга с Яндекс колонки на MPD
 
 > Это самосборка MPD сервера для запуска MPD на Windows. Все файлы имеются на официальном сайте [Music Player Daemon](https://musicpd.org). При желании можете сами собрать свою сборку, благо документация у Music Player Daemon есть или воспользоваться готовой сборкой, достаточно распаковать в корень диска С. Файл `mpd.exe` не является установочным, его нужно запускать через консоль CMD
 
