@@ -1,4 +1,4 @@
-# MPD Server Windows
+# MPD Server Windows + Auremo (mpd client)
 
 * Music Player Daemon documentation
 * Сайт MPD: https://musicpd.org
