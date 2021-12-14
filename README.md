@@ -13,7 +13,8 @@
 ## Видеоинструкция
 
 
-[![Everything Is AWESOME](https://user-images.githubusercontent.com/64090632/146077158-5d1a2a36-0eaa-40aa-a2bf-2fc10e649a85.png)](https://youtu.be/ZumXJ_USO4Y "Everything Is AWESOME")
+[![Everything Is AWESOME](https://user-images.githubusercontent.com/64090632/146078413-ac383385-f418-4ba0-a6ef-0fea29f5726e.jpg)](https://youtu.be/ZumXJ_USO4Y "Everything Is AWESOME")
+
 
 ***
 
