@@ -59,6 +59,9 @@
 * Вводим в консоли `cd c:\mpd` и жмем Enter
 * Вводим в консоли `mpd data\mpd.conf` и жмем Enter. Анализируем ошибку с помощью гугла
 
+![image](https://user-images.githubusercontent.com/64090632/146087484-0cd5cddc-62be-4f94-b475-58960915f4fd.png)
+
+
 
 
 
