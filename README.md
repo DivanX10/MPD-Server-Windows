@@ -3,7 +3,7 @@
 * Music Player Daemon documentation
 * Сайт MPD: https://musicpd.org
 * Документация: https://mpd.readthedocs.io/en/stable/index.html
-* Скачать серер MPD для Windows c этой [страницы](https://github.com/DivanX10/MPD-Server-Windows/raw/main/mpd%20server/MPD%20Server%20Windows.zip)
+* Скачать архивный файл [сервер MPD для Windows](https://github.com/DivanX10/MPD-Server-Windows/raw/main/mpd%20server/MPD%20Server%20Windows.zip)
 * Скачать клиент Auremo c этой [страницы](https://github.com/DivanX10/MPD-Server-Windows/raw/main/mpd%20client/Auremo-0.6.1-installer.exe)
 * Скачать клиент Auremo с проекта [Auremo](https://code.google.com/archive/p/auremo/downloads)
 
