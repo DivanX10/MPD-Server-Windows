@@ -9,6 +9,11 @@
 
 > Это самосборка MPD сервера для запуска MPD на Windows. Все файлы имеются на официальном сайте [Music Player Daemon](https://musicpd.org). При желании можете сами собрать свою сборку, благо документация у Music Player Daemon есть или воспользоваться готовой сборкой, достаточно распаковать в корень диска С. Файл `mpd.exe` не является установочным, его нужно запускать через консоль CMD
 
+***
+
+[<img src="https://user-images.githubusercontent.com/64090632/146077158-5d1a2a36-0eaa-40aa-a2bf-2fc10e649a85.png" width="50%">](https://youtu.be/ZumXJ_USO4Y)
+
+
 
 ***
 
