@@ -13,7 +13,7 @@
 
 **1)** Зарегистрировать библиотеку libmpdclient-2.dll, а после перезагрузитть компьютер. Регистрируем библиотеку командой: regsvr32 c:\mpd\Library\libmpdclient-2.dll
 
-Про libmpdclient модно прочитать здесь https://github.com/MusicPlayerDaemon/libmpdclient
+Про libmpdclient можно прочитать здесь https://github.com/MusicPlayerDaemon/libmpdclient
 libmpdclient is a C library which implements the Music Player Daemon protocol.
 
 
