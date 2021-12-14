@@ -1,36 +1,36 @@
-# MPD-Server-Windows
+# MPD Server Windows
 
-Music Player Daemon documentation
-Сайт MPD: https://musicpd.org
-Документация: https://mpd.readthedocs.io/en/stable/index.html
+* Music Player Daemon documentation
+* Сайт MPD: https://musicpd.org
+* Документация: https://mpd.readthedocs.io/en/stable/index.html
 
-Это самосборка MPD сервера для запуска MPD на Windows. Готовых вариантов не нашел. Нужно собирать самому. Здесь все готово, нужно лишь распаковать в корень диска С 
+> Это самосборка MPD сервера для запуска MPD на Windows. Готовых вариантов не нашел. Нужно собирать самому. Здесь все готово, нужно лишь распаковать в корень диска С 
 
 ***
 
-1) Зарегистрировать библиотеку libmpdclient-2.dll, а после перезагрузитть компьютер. Регистрируем библиотеку командой: regsvr32 c:\mpd\Library\libmpdclient-2.dll
+**1)** Зарегистрировать библиотеку libmpdclient-2.dll, а после перезагрузитть компьютер. Регистрируем библиотеку командой: regsvr32 c:\mpd\Library\libmpdclient-2.dll
 
 Про libmpdclient модно прочитать здесь https://github.com/MusicPlayerDaemon/libmpdclient
 libmpdclient is a C library which implements the Music Player Daemon protocol.
 
 
-2) Конфигурационный файлик mpd.conf с настройками MPD находится c:\mpd\data\
+**2)** Конфигурационный файлик mpd.conf с настройками MPD находится c:\mpd\data\
 
-3) В папке backup находится файлик mpd(конфиг без правки).conf с описанием настроек
+**3)** В папке backup находится файлик mpd(конфиг без правки).conf с описанием настроек
 
-4) Музыку и плейлист закидываем в папки music и playlists
+**4)** Музыку и плейлист закидываем в папки music и playlists
 
-5) Запускать MPD можно в двух вариантах: скрытный и с отображением консоли
+**5)** Запускать MPD можно в двух вариантах: скрытный и с отображением консоли
 * файлик mpd.cmd это обычный запуск MPD
 * файлик "Скрытный запуск MPD.vbs" запускает батник mpd.cmd в скрытном режиме
 
 
-6) При первом запуске в папке c:\mpd\service\ появятся 2 файлика: database, sticker.sql, если они не появятся, то можно их скопировать из бэкапа c:\mpd\backup\service\ 
+**6)** При первом запуске в папке c:\mpd\service\ появятся 2 файлика: database, sticker.sql, если они не появятся, то можно их скопировать из бэкапа c:\mpd\backup\service\ 
 
 
-7) Запущенный MPD можно найти в диспетчере задач, процесс называется Music Player Daemon 0.23.5
+**7)** Запущенный MPD можно найти в диспетчере задач, процесс называется Music Player Daemon 0.23.5
 
-8) Если по какой-то причине MPD не запустился, то запускаем MPD вручную и смотрим что нам в консоли сообщается. 
+**8)** Если по какой-то причине MPD не запустился, то запускаем MPD вручную и смотрим что нам в консоли сообщается. 
 * Запускаем косноль
 * Вводим в консоли cd c:\mpd и жмем Enter
 * Вводим в консоли mpd data\mpd.conf и жмем Enter. Анализируем ошибку с помощью гугла
@@ -38,13 +38,14 @@ libmpdclient is a C library which implements the Music Player Daemon protocol.
 
 ***
 
-Справочная информация про ошибки
-1) После регистрации библиотеки libmpdclient-2.dll всплывет ошибка: Модуль "c:\mpd\service\libmpdclient-2.dll" загружен, но точка входа DLL RegisterServer не найдена
+## Справочная информация про ошибки
 
-Решение: спокойно игнорим и перезагружаем компьютер
+**1)** После регистрации библиотеки libmpdclient-2.dll всплывет ошибка: Модуль "c:\mpd\service\libmpdclient-2.dll" загружен, но точка входа DLL RegisterServer не найдена
+
+> Решение: спокойно игнорим и перезагружаем компьютер
 
 ***
 
-2) Ошибка в консоли: decoder: Decoder plugin 'wildmidi' is unavailable: configuration file does not exist: /etc/timidity/timidity.cfg
+**2)** Ошибка в консоли: decoder: Decoder plugin 'wildmidi' is unavailable: configuration file does not exist: /etc/timidity/timidity.cfg
 
-Решение: спокойно игнорим
+> Решение: спокойно игнорим
