@@ -1,8 +1,10 @@
-# MPD Server Windows + Auremo (mpd client)
+# Сервер Music Player Daemon + клиент Auremo для Windows
 
 * Music Player Daemon documentation
 * Сайт MPD: https://musicpd.org
 * Документация: https://mpd.readthedocs.io/en/stable/index.html
+* Скачать клиент Auremo c этой [страницы](https://github.com/DivanX10/MPD-Server-Windows/blob/main/mpd%20client/Auremo-0.6.1-installer.exe)
+* Скачать клиент Auremo с проекта [Auremo](https://code.google.com/archive/p/auremo/downloads)
 
 > Это самосборка MPD сервера для запуска MPD на Windows. Все файлы имеются на официальном сайте [Music Player Daemon](https://musicpd.org). При желании можете сами собрать свою сборку, благо документация у Music Player Daemon есть или воспользоваться готовой сборкой, достаточно распаковать в корень диска С. Файл `mpd.exe` не является установочным, его нужно запускать через консоль CMD
 
